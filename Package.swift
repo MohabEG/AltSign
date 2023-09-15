@@ -22,7 +22,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", from: "3.0.0")
+     //   .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", from: "3.0.0")
     ],
     targets: [
        
