@@ -21,7 +21,9 @@ let package = Package(
             targets: ["AltSign", "CAltSign", "CoreCrypto", "CCoreCrypto", "ldid", "ldid-core"]
         ),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", from: "3.0.0")
+    ],
     targets: [
        
         
